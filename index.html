@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Area Solution</title>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwsome -->
+    <script src="https://kit.fontawesome.com/b2ff2620a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="mt-8">
+        <h1 class="text-5xl font-semibold text-center"><span class="text-orange-400">Mathematical</span> Area Solution</h1>
+    </header>
+
+    <main class="w-10/12 mx-auto mt-10 mb-20">
+        <section >
+            <div class="grid md:grid-cols-3 gap-4 gap-y-12">
+                <!-- Triangle -->
+                <div>
+                    <img class="w-[200px] h-[200px] mx-auto" src="images/triangle.jpg" alt="">
+                    
+                    <!-- Calculation Section -->
+                    <div class="flex justify-center items-center mt-6 text-slate-900 font-medium"> 
+                        <input id="triangle-inputone" class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm  " type="text" placeholder="b">
+                        <input id="triangle-inputtwo" class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm  " type="text" placeholder="h">
+                        <!-- Result -->
+                        <div class="flex gap-4 items-center">
+                            <i class="fa-solid fa-equals"></i>
+                            <div id="result" class="w-16 h-8 bg-orange-200 flex items-center justify-center">
+
+                            </div>
+                            <button id="tri-remove" class="bg-orange-400 px-3 py-1 text-white rounded-sm" disabled><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                    </div>
+                    <div class="w-full mt-2 flex justify-center font-semibold text-white ">
+                        <button id="tringle-button" class="w-3/6 mx-auto bg-orange-400  py-2 rounded-sm hover:bg-orange-300 btn">Result</button>
+                    </div>
+                </div>
+                <!-- Rectangle -->
+                <div>
+                    <img class="w-[200px] h-[200px] mx-auto" src="images/rectangle.jpg" alt="">
+
+                    <!-- Calculation Section -->
+                    <div class="flex justify-center items-center mt-6 text-slate-900 font-medium"> 
+                        <input id="rec-inputone" class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="b">
+                        <input id="rec-inputtwo" class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="h">
+                        <!-- Result -->
+                        <div class="flex gap-4 items-center">
+                            <i class="fa-solid fa-equals"></i>
+                            <div id="rec-result" class="w-16 h-8 bg-orange-200 flex items-center justify-center">
+                                
+                            </div>
+                            <button id="rec-remove" class="bg-orange-400 px-3 py-1 text-white rounded-sm" disabled><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                    </div>
+                    <div class="w-full mt-2 flex justify-center font-semibold text-white ">
+                        <button id="rec-button" class="w-3/6 mx-auto bg-orange-400  py-2 rounded-sm hover:bg-orange-300 btn">Result</button>
+                    </div>
+                    
+                </div>
+                
+                <div>
+                    <img class="w-[200px] h-[200px] mx-auto" src="images/SQUARE.jpg" alt="">
+
+                    <!-- Calculation Section -->
+                    <div class="flex justify-center items-center mt-6 text-slate-900 font-medium"> 
+                        <input class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="b">
+                        <input class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="h">
+                        <!-- Result -->
+                        <div class="flex gap-4 items-center">
+                            <i class="fa-solid fa-equals"></i>
+                            <div class="w-16 h-8 bg-orange-200">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full mt-2 flex justify-center font-semibold text-white ">
+                        <button class="w-3/6 mx-auto bg-orange-400  py-2 rounded-sm hover:bg-orange-300">Result</button>
+                    </div>
+                </div>
+                
+                <div>
+                    <img class="w-[200px] h-[200px] mx-auto" src="images/circle.jpg" alt="">
+
+                    <!-- Calculation Section -->
+                    <div class="flex justify-center items-center mt-6 text-slate-900 font-medium"> 
+                        <input class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="b">
+                        <input class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="h">
+                        <!-- Result -->
+                        <div class="flex gap-4 items-center">
+                            <i class="fa-solid fa-equals"></i>
+                            <div class="w-16 h-8 bg-orange-200">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full mt-2 flex justify-center font-semibold text-white ">
+                        <button class="w-3/6 mx-auto bg-orange-400  py-2 rounded-sm hover:bg-orange-300">Result</button>
+                    </div>
+                </div>
+                
+                <div>
+                    <img class="w-[200px] h-[200px] mx-auto" src="images/Trapezoid.jpg" alt="">
+
+                    <!-- Calculation Section -->
+                    <div class="flex justify-center items-center mt-6 text-slate-900 font-medium"> 
+                        <input class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="b">
+                        <input class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="h">
+                        <!-- Result -->
+                        <div class="flex gap-4 items-center">
+                            <i class="fa-solid fa-equals"></i>
+                            <div class="w-16 h-8 bg-orange-200">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full mt-2 flex justify-center font-semibold text-white ">
+                        <button class="w-3/6 mx-auto bg-orange-400  py-2 rounded-sm hover:bg-orange-300">Result</button>
+                    </div>
+                </div>
+                
+                <div>
+                    <img class="w-[200px] h-[200px] mx-auto" src="images/ellips.jpg" alt="">
+
+                    <!-- Calculation Section -->
+                    <div class="flex justify-center items-center mt-6 text-slate-900 font-medium"> 
+                        <input class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="b">
+                        <input class="mr-4 w-1/6 bg-slate-100 px-4 py-1 rounded-sm " type="text" placeholder="h">
+                        <!-- Result -->
+                        <div class="flex gap-4 items-center">
+                            <i class="fa-solid fa-equals"></i>
+                            <div class="w-16 h-8 bg-orange-200">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full mt-2 flex justify-center font-semibold text-white ">
+                        <button class="w-3/6 mx-auto bg-orange-400  py-2 rounded-sm hover:bg-orange-300">Result</button>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+    </main>
+
+
+    <!-- JS files -->
+    <script src="js/getvalues.js"></script>
+    <script src="js/triangle.js"></script>
+    <script src="js/rectengle.js"></script>
+</body>
+</html>
